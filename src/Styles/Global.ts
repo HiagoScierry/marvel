@@ -7,7 +7,7 @@ const Global = createGlobalStyle`
       box-sizing: border-box;
   }
   body {
-    font-family: "AxieForma";
+    font-family: 'AxieForma';
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
   }
