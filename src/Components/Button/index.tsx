@@ -1,9 +1,16 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
-const Button: React.FC = () => {
-    return <div />;
+interface Props {
+    text: string;
+}
+
+const Button: React.FC<Props> = ({text}) => {
+    return (
+        <Container >
+            {text}
+        </Container>);
 }
 
 export default Button;

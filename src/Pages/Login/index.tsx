@@ -1,9 +1,40 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import { Container, ImageBackground, Form, Title, ForgetPass, Subtitle, InputText, WrapperForm, WrapperLoginType, WrapperCheckBox, CheckBox, CheckboxLabel, NewUser, NewUserRed } from './styles';
+import { Button, MarvelLogo } from '../../Components';
+import AllHeros from '../../Assets/AllHeros.svg'
+import { themes } from '../../Styles';
 
 const Login: React.FC = () => {
-  return <div>Hello</div>;
+
+  return (
+    <Container>
+      <MarvelLogo />
+
+      <Form >
+        <WrapperForm>
+          <Title>Bem-vindo(a) de volta!</Title>
+          <Subtitle>Acesse sua conta:</Subtitle>
+          <InputText placeholder="Usuario" />
+          <InputText placeholder="Senha" color={themes.gray} />
+
+          <WrapperLoginType>
+
+            <WrapperCheckBox>
+              <CheckBox type="checkbox" />
+              <CheckboxLabel>Salvar login</CheckboxLabel>
+            </WrapperCheckBox>
+            <ForgetPass>Esqueceu a senha</ForgetPass>
+          </WrapperLoginType>
+
+          <Button text='Entrar' />
+
+          <NewUser>Ainda não tem o login?<NewUserRed> Cadastre-se</NewUserRed></NewUser>
+        </WrapperForm>
+      </Form>
+
+      <ImageBackground src={AllHeros} />
+    </Container>
+  );
 }
 
 export default Login;
