@@ -1,17 +1,17 @@
-#Marvel App
+# Marvel App
 
-##Projeto
+## Projeto
  O projeto foi desenvolvido com intuito de avaliar minhas habilidades tecnicas no front-end pela empresa [Mestres da Web](https://mestresdaweb.com.br/).
 
 
-##Tecnologias
+## Tecnologias
 - React
 - Typescript 
 - React Context
 - Styled Components 
 - React Router DOM
 
-##Rodando o projeto 
+## Rodando o projeto 
 Faça o clone deste repositorio e rode os comandos em sequencia :
 - npm i
 - npm run start
