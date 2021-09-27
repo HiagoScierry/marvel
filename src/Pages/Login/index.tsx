@@ -3,6 +3,7 @@ import { Container, ImageBackground, Form, Title, ForgetPass, Subtitle, InputTex
 import { Button, MarvelLogo } from '../../Components';
 import AllHeros from '../../Assets/AllHeros.svg'
 import { themes } from '../../Styles';
+import { Link } from 'react-router-dom';
 
 const Login: React.FC = () => {
 
@@ -26,7 +27,9 @@ const Login: React.FC = () => {
             <ForgetPass>Esqueceu a senha</ForgetPass>
           </WrapperLoginType>
 
-          <Button text='Entrar' />
+          <Link to='/home'>
+            <Button text='Entrar' />
+          </Link>
 
           <NewUser>Ainda não tem o login?<NewUserRed> Cadastre-se</NewUserRed></NewUser>
         </WrapperForm>

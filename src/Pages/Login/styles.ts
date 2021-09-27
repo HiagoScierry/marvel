@@ -23,7 +23,7 @@ export const ImageBackground = styled.img`
     min-width: 50%;
     height: 100vh;
 
-    position: absolute;
+    position: fixed;
     right:0%;
     opacity: 0.5;
 

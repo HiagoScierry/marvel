@@ -15,8 +15,6 @@ const moveLogoLeft = keyframes`
     }
 `
 
-
-
 export const MarvelLogo = styled.div`
     color: ${themes.white};
     font-size: ${pxToRem(100)};

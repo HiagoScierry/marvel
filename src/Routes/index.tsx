@@ -5,14 +5,17 @@ import {
     Route
 } from 'react-router-dom'
 
-import { Login } from '../Pages'
+import { Login, Home } from '../Pages'
 
 const Routes: React.FC = () => {
     return (
         <Router>
             <Switch>
-                <Route path="/">
+                <Route exact path="/">
                     <Login />
+                </Route>
+                <Route exact path="/home">
+                    <Home />
                 </Route>
             </Switch>
         </Router >

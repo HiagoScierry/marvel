@@ -1,0 +1,101 @@
+{
+  "personagem": [
+    {
+      "image": "spider",
+      "nome": "Homem-Aranha",
+      "descricao": "Após ser mordido por uma aranha radioativa, Peter Parker se torna o amigo da vizinhança, o Homem-Aranha.",
+      "aparicoes": [],
+      "avaliacao": 5
+    },
+    {
+      "image": "wanda",
+      "nome": "Wanda Maximoff",
+      "descricao": "Wanda Maximoff foi sequestrada da Sérvia e trazida para a Montanha Wundagore, base do Alto Evolucionário. Durante anos, ela e seu irmão gêmeo, Pietro, acreditavam que eram filhos de um casal de ciganos.",
+      "aparicoes": [
+        "Vingadores - Era de Ultron",
+        "Capitão América - Guerra Civil",
+        " Vingadores - Guerra Infinita",
+        "Vingadores - Ultimato ",
+        "WandaVision"
+      ],
+      "avaliacao": 4
+    },
+    {
+      "image": "thanos",
+      "nome": "Thanos",
+      "descricao": "A lua Titã era governada por Mentor (A'Lars), quando então reinava paz e tecnologia. Mentor tinha dois filhos: Eros e Thanos.  Ao contrário do irmão, Thanos, era bem mais poderoso e almejava ainda mais.",
+      "aparicoes": [
+        "Vingadores",
+        "Guardiões da Galáxia - vol. I",
+        "Vingadores - Guerra Infinita",
+        "Vingadores - Ultimato"
+      ],
+      "avaliacao": 5
+    },
+    {
+      "image": "hulk",
+      "nome": "Hulk",
+      "descricao": "Na história original dos quadrinhos, o Hulk é um selvagem e poderoso alter ego do Dr. Robert Bruce Banner, um cientista que foi atingido por raios gama enquanto salvava um adolescente durante o teste militar.",
+      "aparicoes": [
+        "Vingadores",
+        "Vingadores - Era de Ultron",
+        "Thor - Ragnarok",
+        "Vingadores - Guerra Infinita",
+        " Vingadores - Ultimato"
+      ],
+      "avaliacao": 5
+    }
+  ],
+  "filmes": [
+    {
+      "image": "iron",
+      "nome": "Homem de Ferro",
+      "descricao": "Tony Stark (Robert Downey Jr.) é um industrial bilionário, que também é um brilhante inventor, ao ser sequestrado, ele é obrigado a construir uma arma devastadora, mas ao invés disso, cria uma armadura capaz de mudar a história.",
+      "avaliacao": 5
+    },
+    {
+      "image": "iron2",
+      "nome": "Homem de Ferro 2",
+      "descricao": "O mundo já sabe que o inventor bilionário Tony Stark (Robert Downey Jr.) é o super-herói blindado Homem de Ferro. Sofrendo pressão do governo, da mídia e do público para compartilhar sua tecnologia com as forças armadas",
+      "avaliacao": 5
+    },
+    {
+      "image": "thor",
+      "nome": "Thor",
+      "descricao": "Quando é banido do reino de Asgard e exilado na Terra, o arrogante guerreiro Thor (Chris Hemsworth) é obrigado a lutar para reaver seus poderes perdidos. ",
+      "avaliacao": 5
+    },
+    {
+      "image": "cap",
+      "nome": "Capitão América",
+      "descricao": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo. ",
+      "avaliacao": 5
+    },
+    {
+      "image": "marvel",
+      "nome": "Capitã Marvel",
+      "descricao": "Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls. ",
+      "avaliacao": 5
+    }
+  ],
+  "hqs": [
+    {
+      "image": "thorVik",
+      "nome": "Thor: Vikings",
+      "descricao": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo. ",
+      "avaliacao": 5
+    },
+    {
+      "image": "prateado",
+      "nome": "Surfista Prateado:Parábola",
+      "descricao": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo. ",
+      "avaliacao": 5
+    },
+    {
+      "image": "wolv",
+      "nome": "Wolverine: Origens",
+      "descricao": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo. ",
+      "avaliacao": 5
+    }
+  ]
+}
